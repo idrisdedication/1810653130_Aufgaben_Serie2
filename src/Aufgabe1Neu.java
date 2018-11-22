@@ -6,9 +6,7 @@ public class Aufgabe1Neu {
 
         int alter = Integer.parseInt(JOptionPane.showInputDialog("Geben Sie bitte Ihr Alter ein!"));
 
-        boolean alterPrüfen = alter >=18 && alter <=100;
-
-        if (alterPrüfen) {
+        if (alter > 17) {
             JOptionPane.showMessageDialog(null,"Sie sind volljährig!");
         }
         else {
